@@ -1,57 +1,66 @@
-Smart College Recommendation App
-Overview
+# 🎓 Smart College Recommendation App
 
-Smart College Recommendation App is an Android application developed to help engineering students identify suitable colleges based on their academic performance and preferences. The app provides personalized college recommendations using predefined eligibility criteria and an offline SQLite database.
+An Android application that helps engineering students discover suitable colleges based on their academic performance, preferred branch, budget, and location. The application uses a rule-based recommendation system and an SQLite database to provide personalized college suggestions.
 
-Features
-User Registration and Login
-Personalized College Recommendations
-College Search Based on Percentage and Stream
-SQLite Database Integration
-User-Friendly Android Interface
-Save and View Recommended Colleges
-Tech Stack
+## 🚀 Features
+
+* User Registration & Login
+* Personalized College Recommendations
+* Stream-Based College Filtering
+* Budget & Cutoff-Based Selection
+* SQLite Database Integration
+* Save Recommended Colleges
+* Clean and User-Friendly Interface
+
+## 🛠️ Tech Stack
+
+* **Language:** Java
+* **Framework:** Android SDK
+* **Database:** SQLite
+* **IDE:** Android Studio
+* **UI:** XML
+
+## 📂 Project Structure
+
+```text
 Java
-Android Studio
-SQLite
-XML
-SQLiteAssetHelper
-Project Workflow
-User enters academic details and preferences.
-The application validates the input.
-College data is retrieved from the SQLite database.
-Recommendation logic filters eligible colleges.
-Recommended colleges are displayed to the user.
-Database Fields
+├── LoginActivity
+├── RegisterActivity
+├── MainActivity
+├── ResultActivity
+├── SavedActivity
+├── WelcomeActivity
+└── CollegeDatabaseHelper
 
-The application stores college information such as:
+Resources
+├── Layout Files
+├── Drawable Assets
+└── Database (SQLite)
+```
 
-College Name
-City
-Department
-Cutoff Percentage
-Fees
-College Type
-College Status
-Screenshots
-## Screenshots
+## ⚙️ How It Works
 
-View all application screenshots here: [Screenshots Folder](./screenshots)
+1. User enters academic details and preferences.
+2. Application validates the input.
+3. College data is fetched from SQLite.
+4. Recommendation logic filters eligible colleges.
+5. Personalized college recommendations are displayed.
 
-Future Enhancements
-AI-Based Recommendation System
-College Comparison Feature
-Online Database Integration
-Advanced Filtering Options
-Personalized Career Guidance
-Learning Outcomes
-Android Application Development
-SQLite Database Management
-Java Programming
-User Interface Design
-Recommendation System Logic
-Author
+## 📸 Screenshots
 
-Janhavi Yuvraj Gayakwad
+All application screenshots are available in the **screenshots/** folder.
+https://github.com/Janhavi-gayakwad/Android-studio-project/tree/main/screenshots
+## 🔮 Future Enhancements
 
-GitHub: https://github.com/Janhavi-gayakwad
+* AI-Based Recommendation Engine
+* College Comparison Feature
+* Online Database Integration
+* Advanced Search & Filtering
+* Career Guidance Module
+
+## 👩‍💻 Author
+
+**Janhavi Yuvraj Gayakwad**
+
+* GitHub: https://github.com/Janhavi-gayakwad
+* LinkedIn: Add Your LinkedIn URL
