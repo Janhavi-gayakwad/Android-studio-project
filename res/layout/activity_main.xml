@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College Recommendation"
+            android:textColor="@color/greenDark"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Find the college that fits you best"
+            android:textColor="@color/textDark"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/greenLight"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/etPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Percentage"
+                android:inputType="numberDecimal"
+                android:maxLength="5"/>
+
+            <Spinner
+                android:id="@+id/spBranch"
+                android:layout_width="327dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/etBudget"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="12dp"
+                android:hint="Budget"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/spCity"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRecommend"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/greenDark"
+            android:text="Find Colleges"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Recommended colleges will appear here"
+            android:textColor="@color/textDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSaved"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/greenDark"
+            android:text="View Saved Colleges"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/gobutton"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="@color/greenDark"
+            android:text="Go Back" />
+
+    </LinearLayout>
+</ScrollView>

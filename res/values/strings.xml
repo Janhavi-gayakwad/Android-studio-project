@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart College Recommendation</string>
+
+    <string-array name="engineering_branches">
+        <item>Select Engineering Stream</item>
+        <item>Computer Engineering</item>
+        <item>Artificial Intelligence &amp; Machine Learning (CSE)</item>
+        <item>Data Science (CSE)</item>
+        <item>Electronics &amp; Telecommunication</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>All Cities</item>
+        <item>kolhapur</item>
+        <item>sangli</item>
+        <item>pune</item>
+        <item>mumbai</item>
+    </string-array>
+
+</resources>
